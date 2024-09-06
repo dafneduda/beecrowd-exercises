@@ -15,10 +15,22 @@ deixar um espaço após os dois pontos e um espaço após o "R$". O valor dever�
 apresentado com 2 casas após o ponto.
  */
 
+import java.util.Scanner;
+
 public class Bee1010 {
     public static void main(String[] args) {
-        int codigoPeca, valorpeca;
-        double valorUnitario;
-        System.out.println("VALOR A PAGAR: R$ ");
+        Scanner scanner = new Scanner(System.in);
+        int codigoPeca1 = scanner.nextInt();
+        int numeroPeca1 = scanner.nextInt();
+        double valorUnitario1 = scanner.nextDouble();
+        double total1 = numeroPeca1 * valorUnitario1;
+
+        int codigoPeca2 = scanner.nextInt();
+        int numeroPeca2 = scanner.nextInt();
+        double valorUnitario2 = scanner.nextDouble();
+        double total2 = numeroPeca2 * valorUnitario2;
+
+        double valorTotal = total1 + total2;
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", valorTotal);
     }
 }
