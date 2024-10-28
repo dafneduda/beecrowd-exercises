@@ -15,22 +15,23 @@ Saída
 Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
  */
 
-import java.util.Scanner;
-
 import static java.lang.Math.abs;
 
-public class Bee1013 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
-        int maiorAb = (a + b + abs(a - b)) / 2;
+import java.util.Scanner;
 
-        if (maiorAb < c) {
-            System.out.println(c + " eh o maior");
-        } else {
-            System.out.println(maiorAb + " eh o maior");
-        }
+public class Bee1013 {
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    int c = scanner.nextInt();
+    int maiorAb = (a + b + abs(a - b)) / 2;
+
+    if (maiorAb < c) {
+      System.out.println(c + " eh o maior");
+    } else {
+      System.out.println(maiorAb + " eh o maior");
     }
+  }
 }

@@ -18,12 +18,13 @@ Imprima o total que o funcionário deverá receber.
 import java.util.Scanner;
 
 public class Bee1009 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String nome = scanner.next();
-        double salarioFixo = scanner.nextDouble();
-        double totalVendas = scanner.nextDouble();
-        double salarioComComissao = ((totalVendas * 0.15) + salarioFixo);
-        System.out.printf("TOTAL = R$ %.2f%n", salarioComComissao);
-    }
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    String nome = scanner.next();
+    double salarioFixo = scanner.nextDouble();
+    double totalVendas = scanner.nextDouble();
+    double salarioComComissao = ((totalVendas * 0.15) + salarioFixo);
+    System.out.printf("TOTAL = R$ %.2f%n", salarioComComissao);
+  }
 }

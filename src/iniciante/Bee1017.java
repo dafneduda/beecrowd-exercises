@@ -20,12 +20,13 @@ após o ponto decimal
 import java.util.Scanner;
 
 public class Bee1017 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int tempoViagem = scanner.nextInt();
-        int velocidadeMedia = scanner.nextInt();
-        double distanciaPercorrida = (double) tempoViagem * (double) velocidadeMedia;
-        double litrosCombustivel = distanciaPercorrida / 12;
-        System.out.printf("%.3f%n", litrosCombustivel);
-    }
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int tempoViagem = scanner.nextInt();
+    int velocidadeMedia = scanner.nextInt();
+    double distanciaPercorrida = (double) tempoViagem * (double) velocidadeMedia;
+    double litrosCombustivel = distanciaPercorrida / 12;
+    System.out.printf("%.3f%n", litrosCombustivel);
+  }
 }

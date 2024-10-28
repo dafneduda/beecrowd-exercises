@@ -19,13 +19,14 @@ haver um espaço em branco após o $.
 import java.util.Scanner;
 
 public class Bee1008 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numeroFuncionario = scanner.nextInt();
-        int qtdeHorasTrabalhadas = scanner.nextInt();
-        double valorPorHoraTrabalhada = scanner.nextDouble();
-        double salario = qtdeHorasTrabalhadas * valorPorHoraTrabalhada;
-        System.out.println("NUMBER = " + numeroFuncionario);
-        System.out.printf("SALARY = U$ %.2f%n", salario);
-    }
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int numeroFuncionario = scanner.nextInt();
+    int qtdeHorasTrabalhadas = scanner.nextInt();
+    double valorPorHoraTrabalhada = scanner.nextDouble();
+    double salario = qtdeHorasTrabalhadas * valorPorHoraTrabalhada;
+    System.out.println("NUMBER = " + numeroFuncionario);
+    System.out.printf("SALARY = U$ %.2f%n", salario);
+  }
 }

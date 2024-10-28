@@ -15,11 +15,12 @@ antes e depois da igualdade seguido pelo valor correspondente à soma de A e B.
 import java.util.Scanner;
 
 public class Bee1003 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int soma = a + b;
-        System.out.println("SOMA = " + soma);
-    }
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    int soma = a + b;
+    System.out.println("SOMA = " + soma);
+  }
 }

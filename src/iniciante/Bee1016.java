@@ -20,10 +20,11 @@ Imprima o tempo necessário seguido da mensagem "minutos".
 import java.util.Scanner;
 
 public class Bee1016 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int distancia = scanner.nextInt();
-        int tempoParaYDistanciarDeX = distancia * 2;
-        System.out.println( tempoParaYDistanciarDeX + " minutos");
-    }
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int distancia = scanner.nextInt();
+    int tempoParaYDistanciarDeX = distancia * 2;
+    System.out.println(tempoParaYDistanciarDeX + " minutos");
+  }
 }

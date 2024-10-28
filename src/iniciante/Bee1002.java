@@ -16,10 +16,11 @@ com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double
 import java.util.Scanner;
 
 public class Bee1002 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double raio = scanner.nextDouble();
-        double area = 3.14159 * (raio * raio);
-        System.out.printf("A=%.4f%n", area);
-    }
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    double raio = scanner.nextDouble();
+    double area = 3.14159 * (raio * raio);
+    System.out.printf("A=%.4f%n", area);
+  }
 }
